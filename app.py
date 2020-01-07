@@ -46,7 +46,7 @@ def disconnect():
 if __name__ == '__main__':
    # socketio.run(app)
 
-    sio.run(app,host="0.0.0.0",port=8000,debug=True)
+    sio.run(app,debug=True)
     # wrap Flask application with engineio's middleware
    # app = socketio.Middleware(sio, app)
 
