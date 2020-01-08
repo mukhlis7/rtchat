@@ -1,9 +1,5 @@
-import socketio
 from flask_socketio import SocketIO
-from flask_socketio import send, emit
-import eventlet
-import eventlet.wsgi
-from flask import Flask, render_template
+from flask import Flask
 
 app = Flask(__name__)
 app.config['SECRET_KEY'] = 'mysecret'
